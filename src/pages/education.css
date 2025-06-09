@@ -1,0 +1,18 @@
+.education-page {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.education-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #1d4ed8;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem 0;
+}

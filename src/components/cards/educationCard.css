@@ -1,0 +1,38 @@
+.education-card {
+    background-color: white;
+    padding: 1.5rem;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+    width: 300px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
+
+.degree {
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.period {
+    font-style: italic;
+    color: #6b7280;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 0.95rem;
+    color: #374151;
+}
+
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
