@@ -7,10 +7,9 @@ function Projects() {
         {
             title: "Consolidev",
             description: "A suite of developer tools including JSON validator, timestamp converter, and API builder. Features include user authentication, history tracking, and customizable favorites.",
-            github: "https://github.com/yourusername/consolidev",
-            demo: "https://yourconsolidevsite.com",
-            tech: "React, Node.js, Express, MongoDB"
-        }
+            github: "https://github.com/Huston-Lillian/consolidev",
+            tech: "PHP 7, WAMP, HTML5, CSS3"
+        },
     ];
 
     return (

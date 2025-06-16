@@ -14,8 +14,8 @@ function App() {
           <main className="page-content">
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/education" element={<Education />} />
                 <Route path="/experience" element={<Experience />} />
+                <Route path="/education" element={<Education />} />
                 <Route path="/projects" element={<Projects />} />
             </Routes>
           </main>

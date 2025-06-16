@@ -8,7 +8,7 @@ function Education() {
             school: "Texas A&M University – Central Texas",
             degree: "B.S. in Computer Science",
             period: "June 2023 – May 2025",
-            description: "Focused on software development, algorithms, and databases. /n Earned a Micro-Credential in Business Analytics and Intelligence. Graduated Summa Cum Laude.",
+            description: "Focused on software development, algorithms, and databases. Earned a Micro-Credential in Business Analytics and Intelligence. Graduated Summa Cum Laude.",
         },
         {
             school: "Central Texas College",
