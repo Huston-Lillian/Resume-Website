@@ -1,10 +1,39 @@
-/* src/App.css */
+.scroll-wrapper {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
 
-.page-content {
-  padding-top: 80px; /* match navbar height */
-  min-height: 100vh;
+.scroll-container {
+  position: relative;
+  height: calc(100vh - 60px);
+  scroll-padding-top: 60px;    /* 👈 align section anchors */
+  margin-top: 60px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
   background-color: #f9fafb;
+}
+
+section {
+  height: 100vh;
+  display: flex;
   box-sizing: border-box;
+  justify-content: center;
+  scroll-margin-top: 60px;
+  align-items: center;
+  padding: 2rem;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+section:nth-of-type(even) {
+  background-color: #ffffff;
 }
 
 
+@media (max-width: 768px) {
+  section {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}

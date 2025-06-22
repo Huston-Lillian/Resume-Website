@@ -1,20 +1,33 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f9fafb;
-    padding: 1rem 2rem;
-    border-bottom: 2px solid #e5e7eb;
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: white;
     z-index: 1000;
-    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .logo-img {
     height: 50px;
     width: auto;
+}
+
+.navbar a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    flex-shrink: 0;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #007bff; /* Change to your brand color */
 }
 
 .nav-links {
@@ -45,12 +58,12 @@
     .nav-links {
         flex-direction: row;
         gap: 0.5rem;
-        align-items: flex-end;
+        align-items: center;
     }
 
     .navbar {
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
         padding: 1rem;
     }
 }

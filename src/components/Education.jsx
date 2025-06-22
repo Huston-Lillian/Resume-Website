@@ -1,6 +1,6 @@
 import React from 'react';
 import './education.css';
-import EducationCard from '../components/cards/EducationCard';
+import EducationCard from './cards/EducationCard';
 
 function Education() {
     const educationList = [
