@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #f9fafb;
-    padding: 1rem 2rem;
+    padding: 1rem;
     border-bottom: 2px solid #e5e7eb;
     position: fixed;
     top: 0;
@@ -29,6 +29,10 @@
     padding-left: 2rem;
 }
 
+.nav-links li:hover {
+    color: #1d4ed8;
+}
+
 .nav-links a {
     text-decoration: none;
     color: #1f2937; /* dark gray */
@@ -38,7 +42,7 @@
 }
 
 .nav-links a:hover {
-    color: #2563eb; /* blue on hover */
+    color: #1d4ed8; /* blue on hover */
 }
 
 @media (max-width: 768px) {

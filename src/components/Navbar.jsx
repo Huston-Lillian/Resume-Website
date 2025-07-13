@@ -1,20 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import './navbar.css';
-import logo from '../assets/logo.png';
+import defaultLogo from '../assets/logo.png';
+import hoverLogo from '../assets/logo-hover.png';
 
 function Navbar(){
+    const [src, setSrc] = useState(defaultLogo);
+
     return(
         <nav className="navbar">
             <div className="logo">
-                <Link to="/">
-                    <img src={logo} alt="Logo" className="logo-img" />
-                </Link>
+                    <img src={src} alt="Logo" className="logo-img" onMouseEnter={() => setSrc(hoverLogo)} onMouseLeave={() => setSrc(defaultLogo)}/>
             </div>
             <ul className="nav-links">
-                <li><Link to="/education">Education</Link></li>
-                <li><Link to="/experience">Experience</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
+                <li>Education</li>
+                <li>Experience</li>
+                <li>Projects</li>
             </ul>
         </nav>
     );

@@ -1,12 +1,12 @@
-.experience-page {
+.projects-page {
     padding: 2rem 1rem;
     text-align: center;
 }
 
-.experience-title {
+.projects-title {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #16a34a; /* green accent */
+    color: #1d4ed8; /* purple accent */
 }
 
 .cards-container {
