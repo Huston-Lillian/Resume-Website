@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import ProjectCard from '../components/cards/ProjectCard';
+import ProjectCard from './cards/ProjectCard';
 
 function Projects() {
     const projectList = [

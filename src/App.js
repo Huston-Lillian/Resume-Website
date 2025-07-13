@@ -1,25 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Education from './pages/Education';
-import Experience from './pages/Experience';
-import Projects from './pages/Projects';
-import Home from './pages/Home';
+import Education from './components/Education';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
 import './App.css';
+import About from "./components/About";
+import Hero from './components/Hero';
 
 function App() {
   return (
-      <Router>
+      <>
           <Navbar />
           <main className="page-content">
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/experience" element={<Experience />} />
-                <Route path="/education" element={<Education />} />
-                <Route path="/projects" element={<Projects />} />
-            </Routes>
+              <Hero />
+              <About />
+              <Experience />
+              <Education />
+              <Projects />
           </main>
-      </Router>
+      </>
   );
 }
 

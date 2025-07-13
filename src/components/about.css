@@ -1,0 +1,12 @@
+.about {
+    justify-items: center;
+}
+
+.about-heading {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.about-content {
+    width: 80%;
+}
