@@ -12,8 +12,9 @@ function Navbar(){
                     <img src={src} alt="Logo" className="logo-img" onMouseEnter={() => setSrc(hoverLogo)} onMouseLeave={() => setSrc(defaultLogo)}/>
             </div>
             <ul className="nav-links">
-                <li>Education</li>
+                <li>About</li>
                 <li>Experience</li>
+                <li>Education</li>
                 <li>Projects</li>
             </ul>
         </nav>

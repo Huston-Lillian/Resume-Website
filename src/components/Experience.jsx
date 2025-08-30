@@ -7,21 +7,22 @@ function Experience() {
         {
             company: "Trideum Corporation",
             role: "Software Engineer Intern",
-            period: "May 2023 – Present",
+            period: "March 2024 – May 2025",
             description: [
-                "Developed internal tools using React, JavaScript, and Python.",
-                "Collaborated with engineers to maintain and document codebases.",
-                "Improved testing workflows and frontend performance."
+                "Wrote and maintained unit, integration, and system tests to validate features and ensure application reliability.",
+                "Contributed to full-stack development tasks, including front-end interface improvements and back-end logic\n" +
+                "integration.",
+                "Collaborated with engineers to maintain and document codebases."
             ]
         },
         {
             company: "UFitWorkouts",
             role: "Lead Web Developer",
-            period: "January 2022 – April 2023",
+            period: "November 2021 – November 2022",
             description: [
-                "Built and maintained the company’s website with WordPress and custom code.",
+                "Built and maintained the company’s website with REACT.",
                 "Managed SEO, analytics, and integrated e-commerce features.",
-                "Improved UX by refining mobile layout and booking flow."
+                "Improved UX by refining mobile layout."
             ]
         }
     ];

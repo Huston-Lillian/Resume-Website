@@ -27,6 +27,7 @@
 .nav-links li {
     list-style: none;
     padding-left: 2rem;
+    margin-right: 1rem;
 }
 
 .nav-links li:hover {
