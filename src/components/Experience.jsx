@@ -28,7 +28,7 @@ function Experience() {
     ];
 
     return (
-        <div className="experience-page">
+        <div id="experience" className="experience-page">
             <h2 className="experience-title">Experience</h2>
             <div className="cards-container">
                 {experienceList.map((job, index) => (

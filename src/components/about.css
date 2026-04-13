@@ -1,4 +1,5 @@
 .about {
+    scroll-margin-top: 80px;
     justify-items: center;
 }
 
@@ -9,4 +10,8 @@
 
 .about-content {
     width: 80%;
+}
+
+p {
+    margin-bottom: 30px;
 }

@@ -29,7 +29,7 @@ function Education() {
     ];
 
     return (
-        <div className="education-page">
+        <div id="education" className="education-page">
             <h2 className="education-title">Education</h2>
             <div className="cards-container">
                 {educationList.map((edu, index) => (

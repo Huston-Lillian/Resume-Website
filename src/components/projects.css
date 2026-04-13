@@ -1,4 +1,5 @@
 .projects-page {
+    scroll-margin-top: 80px;
     padding: 2rem 1rem;
     text-align: center;
 }

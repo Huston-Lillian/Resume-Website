@@ -3,11 +3,22 @@ import './about.css';
 
 function About() {
     return (
-        <section className="about">
+        <section id="about-me" className="about">
             <h1 className="about-heading">About me</h1>
 
             <div className="about-content">
-                <p>My journey into coding began when I discovered how a simple loop could turn a jumble of numbers into something useful. That spark led me to intern as a software tester at Trideum Corporation and co-develop Consolidev with classmates. I love numbers and analytics, and I’m fascinated by spotting patterns and turning data into insights. I graduated Summa Cum Laude with a B.S. in Computer Science from Texas A&M–Central Texas and earned a microcredential in Business Analytics & Intelligence. When I’m not architecting software solutions, hunting down stubborn bugs, or building React applications, you’ll find me solving puzzles (including 3D puzzles), reading non-fiction, or out on a hike.</p>
+                <p></p>
+                <p> &emsp; &emsp; My journey into tech started with a simple realization: the right logic can turn messy data into meaningful insight.
+                    Since then, I’ve been driven by a curiosity for how systems work, how data tells a story, and how small issues can impact the bigger picture.
+                    </p>
+                <p> &emsp; &emsp; I’ve applied that mindset as a software tester intern at Trideum Corporation and as a co-developer of Consolidev, contributing to both system functionality and quality.
+                    I’ve also worked as a QA contributor on the PostSecret Searchable Archive, where I identified bugs, analyzed search behavior, and helped improve the accuracy and usability of a large-scale, content-driven platform.
+                    </p>
+                <p> &emsp; &emsp; I enjoy identifying patterns, uncovering insights, and digging into problems to understand their root cause.
+                    I graduated Summa Cum Laude with a B.S. in Computer Science from Texas A&M–Central Texas and earned a microcredential in Business Analytics & Intelligence.
+                    Outside of tech, I enjoy solving puzzles, reading non-fiction, and spending time outdoors.
+                    </p>
+                <p> &emsp; &emsp; I’m excited to continue growing in roles where I can combine analysis, quality, and technical skills to make systems more reliable and impactful.</p>
             </div>
         </section>
     );
